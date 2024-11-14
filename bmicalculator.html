@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <a href="#">Logo</a>
+        </div>
+        <div class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="exercies.html">Exercises</a>
+            <a href="health foods.html">Healthy Food</a>
+            <a href="signin.html" class="sign-in">Sign In</a>
+        </div>
+    </div>
+    <div class="bmi-calculator">
+        <h2>BMI Calculator</h2>
+        <input type="number" id="weight" placeholder="Weight (kg)" required>
+        <input type="number" id="height" placeholder="Height (m)" required>
+        <button onclick="calculateBMI()">Calculate BMI</button>
+        <div class="bmi-result" id="bmiResult"></div>
+    </div>
+    <script src="bmi.js">
+
+    </script>
+</body>
+</html>
